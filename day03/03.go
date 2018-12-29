@@ -17,16 +17,12 @@ func deliverPresents(input string, santas int) int {
 		switch x {
 		case '<':
 			curPos[idx] = pos{curPos[idx].x - 1, curPos[idx].y}
-			break
 		case '>':
 			curPos[idx] = pos{curPos[idx].x + 1, curPos[idx].y}
-			break
 		case '^':
 			curPos[idx] = pos{curPos[idx].x, curPos[idx].y - 1}
-			break
 		case 'v':
 			curPos[idx] = pos{curPos[idx].x, curPos[idx].y + 1}
-			break
 		}
 		houses[curPos[idx]] = true
 		idx = (idx + 1) % santas

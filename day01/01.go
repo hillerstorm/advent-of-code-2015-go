@@ -7,10 +7,8 @@ func traverseInput(input string) (int, int) {
 		switch x {
 		case '(':
 			floor++
-			break
 		case ')':
 			floor--
-			break
 		}
 		if basement == -1 && floor == -1 {
 			basement = i + 1
