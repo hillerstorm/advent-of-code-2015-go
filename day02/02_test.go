@@ -12,7 +12,7 @@ type Expect struct {
 	part   utils.Part
 }
 
-func TestDayTwo(t *testing.T) {
+func TestDay02(t *testing.T) {
 	input := utils.ReadLines("02.in")
 
 	expects := []Expect{

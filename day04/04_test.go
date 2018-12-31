@@ -13,7 +13,7 @@ type Expect struct {
 	part   utils.Part
 }
 
-func TestDayTwo(t *testing.T) {
+func TestDay04(t *testing.T) {
 	input := "ckczppom"
 
 	expects := []Expect{
